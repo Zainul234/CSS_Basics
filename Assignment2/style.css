@@ -1,0 +1,67 @@
+.top{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+}
+#t2
+{
+    text-align: center;
+    color: rgb(112, 175, 133);
+    text-decoration: overline;
+}
+#t3
+{
+    text-align: center;
+    color: rgb(3, 78, 28);
+    text-decoration: underline;
+}
+div.d1{
+    background-color: red;
+    font-size: 5em;
+}
+div.d2{
+    background-color: royalblue;
+    font-size: 5rem;
+}
+div.d3{
+    background-color: green;
+    font-size: 5vh;
+}
+div.d4{
+    background-color: yellowgreen;
+    font-size: 5vw;
+}
+div.d5{
+    background-color: black;
+    color: white ;
+    font-size: 5px;
+}
+.descendent p{
+    background-color: bisque;
+}
+.child > p{
+    background-color: greenyellow;
+}
+.adjacent + p{
+    background-color: blueviolet;
+}
+.general ~ p{
+    background-color: brown;
+}
+img:hover{
+    transform: rotate(160deg);
+    transform: scaleX(200%);
+    transform: translate(100px);
+}
+div.transition
+{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    transition: width 2s,height 4s;
+}
+
+div:hover{
+    width: 100px;
+    height: 150px;
+}
